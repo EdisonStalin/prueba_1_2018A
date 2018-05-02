@@ -17,6 +17,10 @@ def piramideTriangular(l,h):
 	VolumenPiramide = (math.sqrt(3)*(l**2)*h)
 	return VolumenPiramide
 
+def piramideCuadrangular(l,h):
+	VolumenPiramideCuadrangular = (((l**2)*h)/3)
+	return VolumenPiramideCuadrangular
+
 #*******MENU********
 	 
 ListaOpciones = {'a': 'a) cubo','b': 'b) piramide de base triangular','c': 'c) piramide de base cuadrangular','d': 'd) esfera' }
@@ -41,7 +45,12 @@ elif Seleccion == 'b':
 	print(piramideTriangular(l,h))
 
 elif Seleccion == 'c':
-	print('piramide de base triangular')
+	print('piramide de base cuadrangular' \n)
+	l = int(input('ingrese el lado: '))
+	h = int(input('ingrese la altura: '))
+	print('el volumen es: ')
+	print(piramideCuadrangular(l,h))
+
 
 elif Seleccion == 'd':
 	print('esfera')
