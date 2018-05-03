@@ -19,7 +19,8 @@ def piramideTriangular(l,h):
 
 def piramideCuadrangular(l,h):
 	VolumenPiramideCuadrangular = (((l**2)*h)/3)
-	return VolumenPiramideCuadrangular
+    cambiar = round(VolumenPiramideCuadrangular, 2)
+	return cambiar
 
 #*******MENU********
 	 
