@@ -46,8 +46,8 @@ elif Seleccion == 'b':
 
 elif Seleccion == 'c':
 	print('piramide de base cuadrangular \n')
-	l = int(input('ingrese el lado: '))
-	h = int(input('ingrese la altura: '))
+	l = float(input('ingrese el lado: '))
+	h = float(input('ingrese la altura: '))
 	print('el volumen es: ')
 	print(piramideCuadrangular(l,h))
 
